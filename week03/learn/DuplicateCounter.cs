@@ -1,4 +1,4 @@
-﻿public class DuplicateCounter
+public class DuplicateCounter
 {
     //Count how many duplicates are in a collection of data.
 
@@ -27,6 +27,6 @@
         var unique = new HashSet<int>(data);   // removes repeats
 
         return data.Length - unique.Count;
-        
+
     }
 }
